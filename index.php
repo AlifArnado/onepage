@@ -16,7 +16,7 @@
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap-material/dist/js/material.min.js"></script>
-    <script src="//maps.google.com/maps/api/js?sensor=true"></script>
+    <!--<script src="//maps.google.com/maps/api/js?sensor=true"></script>-->
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
@@ -37,11 +37,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-collapse-main">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#information">Information</a></li>
-                <li><a href="#google_map">Contact</a></li>
+                <li><a href="#home"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+                <li><a href="#about"><span class="glyphicon glyphicon-glass" aria-hidden="true"></span> About</a></li>
+                <li><a href="#services"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Open Class</a></li>
+                <li><a href="#information"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Information</a></li>
+                <li><a href="#google_map"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Map location</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div> <!-- /.content-pluid -->
@@ -49,20 +49,26 @@
 
     <!-- first section home -->
     <div id="home" class="home">
-        <div class="text-vcenter">
-            <!-- <h1>Unit Kegiatan Mahasiswa</h1> -->
-            <img src="images/ik.jpg" class="img-circle sample shadow-z-2 img-head">
-            <h3>Unit Kegiatan Mahasiswa Informatika & Komputer Yogyakarta</h3>
-            <a href="#about" class="btn btn-default btn-lg">Continue</a>
+        <div class="lapisan">
+            <div class="text-vcenter">
+                <div class="logo-header">
+                    <img src="images/ik.jpg" class="img-circle sample shadow-z-2 img-head"><br>
+                     <p class="name-ukm">Unit Kegiatan Mahasiswa Informatika dan Komputer Yogyakarta</p>
+                     <p class="name-kampus">STMIK AKAKOM YOGYAKARTA</p>
+                </div>
+                <!-- <a href="#about" class="btn btn-default btn-lg">Continue</a> -->
+            </div>
         </div>
-    </div> <!-- /.home -->
+
+    </div><!-- /.home -->
+
 
     <!-- second section About -->
     <div id="about" class="pad-section">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <img src="images/ik.jpg" class="img-circle img-head-about" alt="" />
+            <img src="images/ik.jpg" class="img-circle img-head-about" alt="" /><br>
           </div>
           <div class="col-sm-6 text-center">
             <h2>UKM Informatika & Komputer</h2>
@@ -149,13 +155,35 @@
 
     <!-- footer -->
     <footer>
-        <hr>
-        <div class="container">
-            <p class="text-right">
-                <img src="images/logo.jpg" class="img-circle sample shadow-z-2 img-footer">
-                <img src="images/ik.jpg" class="img-circle sample shadow-z-2 img-footer">
-                Copyright &copy; Team UKM Informatika & Komputer 2015
-            </p>
+        <div class="container-fluid">
+            <div class="raw">
+                <div class="col-md-4">
+                <p class="text-center">
+                    Information Sosial Network <br>
+                    <a href="" title=""><img src="images/icon/flat-facebook.png" class="img-circle sample shadow-z-2 img-footer"></a>
+                    <a href="" title=""><img src="images/icon/flat-twitter.png" class="img-circle sample shadow-z-2 img-footer"></a>
+                    <a href="" title=""><img src="images/icon/flat-instagram.png" class="img-circle sample shadow-z-2 img-footer"></a>
+                    <a href="" title=""><img src="images/icon/flat-youtube.png" class="img-circle sample shadow-z-2 img-footer"></a>
+                </p>
+                </div>
+                 <div class="col-md-4">
+                 <p class="text-center">
+                    Copyright &copy; Team UKM Informatika & Komputer STMIK AKAKOM YOGYAKARTA 2015 <br>
+                    <img src="images/logo.jpg" class="img-circle sample shadow-z-2 img-footer">
+                    <img src="images/ik.jpg" class="img-circle sample shadow-z-2 img-footer">
+                </p>
+                </div>
+                 <div class="col-md-4">
+                 <p class="text-center">
+                Contact us<br>
+                    <ul class="list-group">
+                        <li class="list-group-item">Email : </li>
+                        <li class="list-group-item">Telephone : </li>
+                        <li class="list-group-item">Alamat : </li>
+                    </ul>
+                </p>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- /.footer -->

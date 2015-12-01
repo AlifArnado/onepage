@@ -51,7 +51,7 @@ html, body {
 
 /* additional sections */
 #home {
-  background: url(../images/home.jpg) no-repeat center center fixed;
+  background: url(../images/header.jpg) no-repeat center;
   display: table;
   height: 100%;
   position: relative;
@@ -60,6 +60,35 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.lapisan {
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  float: left;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+}
+
+.name-ukm {
+  font-weight: bold;
+   font-size: 20px;
+}
+
+.name-kampus {
+  font-weight: bold;
+   font-size: 20px;
+}
+
+.logo-header {
+  margin-top: -180px;
+  font-weight: bold;
 }
 
 #about {
@@ -101,7 +130,12 @@ html, body {
 }
 
 footer {
-  padding: 20px 0;
+  background-color: #306d9f;
+  color: #ffffff;
+}
+
+footer {
+  padding: 10px 0;
 }
 footer .glyphicon {
   color: #333333;
