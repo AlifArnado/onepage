@@ -51,7 +51,7 @@ html, body {
 
 /* additional sections */
 #home {
-  background: url(../images/header.jpg) no-repeat center;
+  background: url(../images/header2.JPG) no-repeat center;
   display: table;
   height: 100%;
   position: relative;
@@ -176,3 +176,18 @@ footer .glyphicon:hover {
     -moz-user-select: none;
     user-select: none;
   }
+
+.icon-right {
+  margin-right: 0;
+}
+
+#menu-content {
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

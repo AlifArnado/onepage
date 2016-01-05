@@ -16,7 +16,7 @@
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap-material/dist/js/material.min.js"></script>
-    <!--<script src="//maps.google.com/maps/api/js?sensor=true"></script>-->
+    <script src="//maps.google.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
